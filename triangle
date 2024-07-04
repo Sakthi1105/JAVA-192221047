@@ -1,0 +1,16 @@
+import java.util.scanner;
+public classs triangle
+{
+
+public static void main(string[] args) 
+{
+    scanner nobj = new scanner(system in);
+    system.out.println("enter the base of height");
+    double base = nobj.next double();
+    system.out.println("height pf one triangle:")
+    double height = nobj.next double();
+    double area = (base * height) / 2;
+    system.out.println("area of triangel is:" + area);
+
+}
+}    
