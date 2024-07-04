@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner n=new Scanner(System.in);
+        System.out.println("Enter diagnol: ");
+        double d= n.nextDouble();
+        double area =(d*d)/2;
+        System.out.println("Area of rhombus is "+area);
+        
+    }
+}
