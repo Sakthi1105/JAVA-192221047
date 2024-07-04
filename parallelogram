@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner n=new Scanner(System.in);
+        System.out.println("Enter base: ");
+        double base= n.nextDouble();
+        System.out.println("Enter height: ");
+        double height= n.nextDouble();
+        double area =(base*height);
+        System.out.println("Area of parallelogram is "+area);
+        
+    }
+}
